@@ -1,0 +1,633 @@
+2016-07-31 13:15:02,075INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 13:15:02,084INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 13:15:02,085INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 13:15:02,086INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 13:15:02,168WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 13:15:02,169INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 13:15:02,184INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 13:15:02,184INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 13:15:02,184INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 13:15:02,185INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 13:15:02,389INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 13:15:02,398INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 13:15:02,405INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 13:15:02,409INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 13:15:02,461INFO-MLog clients using log4j logging.
+ 2016-07-31 13:15:02,538INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 13:15:02,715INFO-系统配置信息读取成功！
+ 2016-07-31 13:15:32,721INFO-本次Job开始执行
+ 2016-07-31 13:15:32,724INFO-本地目录创建成功D:\Backup\SPC\201607\1
+ 2016-07-31 13:15:32,725INFO-正在监控:1号机台
+ 2016-07-31 13:15:32,730INFO-正在上传文件:160704-right.csv
+ 2016-07-31 13:15:32,738INFO-上传文件大小:1.00MB
+ 2016-07-31 13:15:32,739INFO-上传文件最后修改时间:2016/06/21 15:40:40
+ 2016-07-31 13:15:32,750INFO-文件:160704-right.csv 已上传完
+ 2016-07-31 13:15:32,770INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihl1xov1itwdqk|4a009ab0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihl1xov1itwdqk|4a009ab0, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 13:15:32,833INFO-解析文件:160704-right.csv失败,失败原因如下:
+ 2016-07-31 13:15:32,847INFO-1#机台本次数据采集文件:160704-right.csv完成，结果: 上传数据行:0  耗时:0.0030(S)
+ 2016-07-31 13:15:32,888ERROR-
+ 2016-07-31 13:15:32,889INFO-本次Job耗时(S):0.17
+ 2016-07-31 13:15:32,889INFO-本次Job结束,下次Job开始时间:2016/07/31 13:20:32
+ 2016-07-31 13:20:32,731INFO-本次Job开始执行
+ 2016-07-31 13:20:32,731INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 13:20:32,732INFO-正在监控:1号机台
+ 2016-07-31 13:20:32,739INFO-本地目录创建成功D:\Backup\SPC\201607\2
+ 2016-07-31 13:20:32,740INFO-正在监控:2号机台
+ 2016-07-31 13:20:32,742INFO-正在上传文件:160704-left.csv
+ 2016-07-31 13:20:32,749INFO-上传文件大小:751.97KB
+ 2016-07-31 13:20:32,750INFO-上传文件最后修改时间:2016/07/01 17:22:22
+ 2016-07-31 13:20:32,759INFO-文件:160704-left.csv 已上传完
+ 2016-07-31 13:20:32,759INFO-解析文件:160704-left.csv失败,失败原因如下:
+ 2016-07-31 13:20:32,772INFO-2#机台本次数据采集文件:160704-left.csv完成，结果: 上传数据行:0  耗时:0.0010(S)
+ 2016-07-31 13:20:32,779ERROR-
+ 2016-07-31 13:20:32,780INFO-本次Job耗时(S):0.048
+ 2016-07-31 13:20:32,780INFO-本次Job结束,下次Job开始时间:2016/07/31 13:25:32
+ 2016-07-31 13:26:31,343INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 13:26:31,348INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 13:26:31,349INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 13:26:31,350INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 13:26:31,411WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 13:26:31,412INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 13:26:31,417INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 13:26:31,417INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 13:26:31,417INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 13:26:31,417INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 13:26:31,585INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 13:26:31,591INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 13:26:31,598INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 13:26:31,602INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 13:26:31,641INFO-MLog clients using log4j logging.
+ 2016-07-31 13:26:31,685INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 13:26:31,845INFO-系统配置信息读取成功！
+ 2016-07-31 13:27:01,849INFO-本次Job开始执行
+ 2016-07-31 13:27:01,851INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 13:27:01,852INFO-正在监控:1号机台
+ 2016-07-31 13:27:01,859INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 13:27:01,859INFO-正在监控:2号机台
+ 2016-07-31 13:27:01,862INFO-正在上传文件:160709-left.csv
+ 2016-07-31 13:27:01,867INFO-上传文件大小:1.54MB
+ 2016-07-31 13:27:01,867INFO-上传文件最后修改时间:2016/07/09 22:36:37
+ 2016-07-31 13:27:01,879INFO-文件:160709-left.csv 已上传完
+ 2016-07-31 13:27:01,898INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihlgpgn1tsd9fd|609f3e95, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihlgpgn1tsd9fd|609f3e95, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 13:27:01,955INFO-解析文件:160709-left.csv失败,失败原因如下:
+ 2016-07-31 13:27:01,974INFO-2#机台本次数据采集文件:160709-left.csv完成，结果: 上传数据行:0  耗时:0.0050(S)
+ 2016-07-31 13:27:02,009ERROR-
+ 2016-07-31 13:27:02,010INFO-本次Job耗时(S):0.162
+ 2016-07-31 13:27:02,010INFO-本次Job结束,下次Job开始时间:2016/07/31 13:32:02
+ 2016-07-31 13:29:14,942INFO-停止扫描！
+ 2016-07-31 13:29:45,062INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 13:29:45,068INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 13:29:45,069INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 13:29:45,070INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 13:29:45,132WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 13:29:45,133INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 13:29:45,138INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 13:29:45,138INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 13:29:45,138INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 13:29:45,138INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 13:29:45,307INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 13:29:45,314INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 13:29:45,321INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 13:29:45,324INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 13:29:45,363INFO-MLog clients using log4j logging.
+ 2016-07-31 13:29:45,408INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 13:29:45,568INFO-系统配置信息读取成功！
+ 2016-07-31 13:30:15,572INFO-本次Job开始执行
+ 2016-07-31 13:30:15,573INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 13:30:15,574INFO-正在监控:1号机台
+ 2016-07-31 13:30:15,583INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 13:30:15,583INFO-正在监控:2号机台
+ 2016-07-31 13:30:15,585INFO-正在上传文件:160714-left.csv
+ 2016-07-31 13:30:15,586INFO-上传文件大小:818.37KB
+ 2016-07-31 13:30:15,587INFO-上传文件最后修改时间:2016/07/14 22:58:13
+ 2016-07-31 13:30:15,596INFO-文件:160714-left.csv 已上传完
+ 2016-07-31 13:30:15,616INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihlkuxt16dlurf|5e54777e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihlkuxt16dlurf|5e54777e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 13:30:15,675INFO-解析文件:160714-left.csv失败,失败原因如下:
+ 2016-07-31 13:30:15,692INFO-2#机台本次数据采集文件:160714-left.csv完成，结果: 上传数据行:0  耗时:0.0060(S)
+ 2016-07-31 13:30:15,726ERROR-
+ 2016-07-31 13:30:15,727INFO-本次Job耗时(S):0.156
+ 2016-07-31 13:30:15,727INFO-本次Job结束,下次Job开始时间:2016/07/31 13:35:15
+ 2016-07-31 13:32:42,155INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 13:32:42,160INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 13:32:42,161INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 13:32:42,162INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 13:32:42,223WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 13:32:42,224INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 13:32:42,228INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 13:32:42,228INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 13:32:42,228INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 13:32:42,229INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 13:32:42,394INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 13:32:42,400INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 13:32:42,407INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 13:32:42,411INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 13:32:42,450INFO-MLog clients using log4j logging.
+ 2016-07-31 13:32:42,495INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 13:32:42,657INFO-系统配置信息读取成功！
+ 2016-07-31 13:33:12,661INFO-本次Job开始执行
+ 2016-07-31 13:33:12,662INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 13:33:12,663INFO-正在监控:1号机台
+ 2016-07-31 13:33:12,672INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 13:33:12,672INFO-正在监控:2号机台
+ 2016-07-31 13:33:12,676INFO-本次Job耗时(S):0.016
+ 2016-07-31 13:33:12,677INFO-本次Job结束,下次Job开始时间:2016/07/31 13:38:12
+ 2016-07-31 13:38:12,673INFO-本次Job开始执行
+ 2016-07-31 13:38:12,673INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 13:38:12,674INFO-正在监控:1号机台
+ 2016-07-31 13:38:12,680INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 13:38:12,680INFO-正在监控:2号机台
+ 2016-07-31 13:38:12,686INFO-本次Job耗时(S):0.012
+ 2016-07-31 13:38:12,686INFO-本次Job结束,下次Job开始时间:2016/07/31 13:43:12
+ 2016-07-31 13:45:00,237INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 13:45:00,242INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 13:45:00,243INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 13:45:00,244INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 13:45:00,304WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 13:45:00,305INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 13:45:00,310INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 13:45:00,310INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 13:45:00,310INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 13:45:00,310INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 13:45:00,476INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 13:45:00,483INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 13:45:00,490INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 13:45:00,493INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 13:45:00,532INFO-MLog clients using log4j logging.
+ 2016-07-31 13:45:00,576INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 13:45:00,735INFO-系统配置信息读取成功！
+ 2016-07-31 13:45:30,739INFO-本次Job开始执行
+ 2016-07-31 13:45:30,740INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 13:45:30,741INFO-正在监控:1号机台
+ 2016-07-31 13:45:30,750INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 13:45:30,750INFO-正在监控:2号机台
+ 2016-07-31 13:45:30,755INFO-本次Job耗时(S):0.017
+ 2016-07-31 13:45:30,755INFO-本次Job结束,下次Job开始时间:2016/07/31 13:50:30
+ 2016-07-31 13:46:57,964INFO-停止扫描！
+ 2016-07-31 13:49:59,582WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 13:49:59,582INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 13:49:59,582INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 13:49:59,582INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 13:49:59,582INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 13:49:59,582INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 13:49:59,622INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 13:49:59,622INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 13:49:59,623INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 13:49:59,623INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 13:49:59,626INFO-系统配置信息读取成功！
+ 2016-07-31 13:50:29,628INFO-本次Job开始执行
+ 2016-07-31 13:50:29,628INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 13:50:29,629INFO-正在监控:1号机台
+ 2016-07-31 13:50:29,637INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 13:50:29,637INFO-正在监控:2号机台
+ 2016-07-31 13:50:29,642INFO-本次Job耗时(S):0.013
+ 2016-07-31 13:50:29,642INFO-本次Job结束,下次Job开始时间:2016/07/31 13:55:29
+ 2016-07-31 13:51:56,359INFO-停止扫描！
+ 2016-07-31 13:51:57,586WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 13:51:57,586INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 13:51:57,586INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 13:51:57,586INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 13:51:57,587INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 13:51:57,587INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 13:51:57,626INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 13:51:57,627INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 13:51:57,627INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 13:51:57,627INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 13:51:57,630INFO-系统配置信息读取成功！
+ 2016-07-31 13:52:27,632INFO-本次Job开始执行
+ 2016-07-31 13:52:27,632INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 13:52:27,632INFO-正在监控:1号机台
+ 2016-07-31 13:52:27,639INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 13:52:27,639INFO-正在监控:2号机台
+ 2016-07-31 13:52:27,640INFO-正在上传文件:160714-left.csv
+ 2016-07-31 13:52:27,642INFO-上传文件大小:818.37KB
+ 2016-07-31 13:52:27,644INFO-上传文件最后修改时间:2016/07/14 22:58:13
+ 2016-07-31 13:52:27,654INFO-文件:160714-left.csv 已上传完
+ 2016-07-31 13:52:27,671INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihm4h351udnh1s|22cf3539, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihm4h351udnh1s|22cf3539, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 13:52:27,729INFO-解析文件:160714-left.csv失败,失败原因如下:
+ 2016-07-31 13:52:27,745INFO-2#机台本次数据采集文件:160714-left.csv完成，结果: 上传数据行:0  耗时:0.0050(S)
+ 2016-07-31 13:52:27,778ERROR-
+ 2016-07-31 13:52:27,779INFO-本次Job耗时(S):0.147
+ 2016-07-31 13:52:27,779INFO-本次Job结束,下次Job开始时间:2016/07/31 13:57:27
+ 2016-07-31 13:54:19,603INFO-停止扫描！
+ 2016-07-31 13:58:56,939INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 13:58:56,944INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 13:58:56,945INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 13:58:56,946INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 13:58:57,005WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 13:58:57,006INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 13:58:57,011INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 13:58:57,011INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 13:58:57,011INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 13:58:57,011INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 13:58:57,178INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 13:58:57,185INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 13:58:57,192INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 13:58:57,195INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 13:58:57,235INFO-MLog clients using log4j logging.
+ 2016-07-31 13:58:57,280INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 13:58:57,440INFO-系统配置信息读取成功！
+ 2016-07-31 13:59:27,444INFO-本次Job开始执行
+ 2016-07-31 13:59:27,445INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 13:59:27,446INFO-正在监控:1号机台
+ 2016-07-31 13:59:27,455INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 13:59:27,455INFO-正在监控:2号机台
+ 2016-07-31 13:59:27,456INFO-正在上传文件:160714-left.csv
+ 2016-07-31 13:59:27,458INFO-上传文件大小:818.37KB
+ 2016-07-31 13:59:27,459INFO-上传文件最后修改时间:2016/07/14 22:58:13
+ 2016-07-31 13:59:27,470INFO-文件:160714-left.csv 已上传完
+ 2016-07-31 13:59:27,487INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihmmeowz3jfta|7b712193, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihmmeowz3jfta|7b712193, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 13:59:59,545INFO-2#机台本次数据采集文件:160714-left.csv完成，结果:Succeed 上传数据行:733  耗时:31.989(S)
+ 2016-07-31 13:59:59,592ERROR-
+ 2016-07-31 13:59:59,598INFO-本次Job耗时(S):32.155
+ 2016-07-31 13:59:59,598INFO-本次Job结束,下次Job开始时间:2016/07/31 14:04:59
+ 2016-07-31 14:04:27,455INFO-本次Job开始执行
+ 2016-07-31 14:04:27,456INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:04:27,456INFO-正在监控:1号机台
+ 2016-07-31 14:04:27,463INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:04:27,463INFO-正在监控:2号机台
+ 2016-07-31 14:04:27,464INFO-正在上传文件:160715-left.csv
+ 2016-07-31 14:04:27,465INFO-上传文件大小:1.09MB
+ 2016-07-31 14:04:27,465INFO-上传文件最后修改时间:2016/07/15 22:59:14
+ 2016-07-31 14:04:27,476INFO-文件:160715-left.csv 已上传完
+ 2016-07-31 14:04:27,508INFO-2#机台本次数据采集文件:160715-left.csv完成，结果:Fail 上传数据行:-1  耗时:0.0080(S)
+ 2016-07-31 14:04:27,517ERROR-
+ 2016-07-31 14:04:27,518INFO-本次Job耗时(S):0.062
+ 2016-07-31 14:04:27,518INFO-本次Job结束,下次Job开始时间:2016/07/31 14:09:27
+ 2016-07-31 14:04:44,794INFO-停止扫描！
+ 2016-07-31 14:09:01,000INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 14:09:01,006INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 14:09:01,007INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 14:09:01,008INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 14:09:01,089WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:09:01,090INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:09:01,095INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:09:01,095INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:09:01,096INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:09:01,096INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:09:01,272INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:09:01,280INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:09:01,287INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:09:01,292INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:09:01,337INFO-MLog clients using log4j logging.
+ 2016-07-31 14:09:01,393INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 14:09:01,560INFO-系统配置信息读取成功！
+ 2016-07-31 14:09:56,698INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 14:09:56,703INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 14:09:56,704INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 14:09:56,705INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 14:09:56,764WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:09:56,765INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:09:56,769INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:09:56,770INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:09:56,770INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:09:56,770INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:09:56,934INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:09:56,941INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:09:56,948INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:09:56,951INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:09:56,989INFO-MLog clients using log4j logging.
+ 2016-07-31 14:09:57,033INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 14:09:57,189INFO-系统配置信息读取成功！
+ 2016-07-31 14:10:27,193INFO-本次Job开始执行
+ 2016-07-31 14:10:27,195INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:10:27,196INFO-正在监控:1号机台
+ 2016-07-31 14:10:27,216INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:10:27,217INFO-正在监控:2号机台
+ 2016-07-31 14:10:27,220INFO-正在上传文件:160709-left.csv
+ 2016-07-31 14:10:27,222INFO-上传文件大小:1.54MB
+ 2016-07-31 14:10:27,223INFO-上传文件最后修改时间:2016/07/09 22:36:37
+ 2016-07-31 14:10:27,234INFO-文件:160709-left.csv 已上传完
+ 2016-07-31 14:10:27,251INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihn0jrfghmm90|40537935, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihn0jrfghmm90|40537935, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 14:11:27,288INFO-2#机台本次数据采集文件:160709-left.csv完成，结果:Succeed 上传数据行:1403  耗时:59.968(S)
+ 2016-07-31 14:11:28,333ERROR-
+ 2016-07-31 14:11:28,333INFO-本次Job耗时(S):61.141
+ 2016-07-31 14:11:28,333INFO-本次Job结束,下次Job开始时间:2016/07/31 14:16:28
+ 2016-07-31 14:15:27,203INFO-本次Job开始执行
+ 2016-07-31 14:15:27,203INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:15:27,203INFO-正在监控:1号机台
+ 2016-07-31 14:18:11,359INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 14:18:11,364INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 14:18:11,366INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 14:18:11,366INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 14:18:11,442WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:18:11,443INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:18:11,449INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:18:11,449INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:18:11,449INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:18:11,449INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:18:11,624INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:18:11,633INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:18:11,640INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:18:11,644INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:18:11,690INFO-MLog clients using log4j logging.
+ 2016-07-31 14:18:11,748INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 14:18:11,917INFO-系统配置信息读取成功！
+ 2016-07-31 14:18:41,922INFO-本次Job开始执行
+ 2016-07-31 14:18:41,924INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:18:41,926INFO-正在监控:1号机台
+ 2016-07-31 14:18:41,944INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:18:41,944INFO-正在监控:2号机台
+ 2016-07-31 14:18:41,947INFO-正在上传文件:160710-left.csv
+ 2016-07-31 14:18:41,948INFO-上传文件大小:1.25MB
+ 2016-07-31 14:18:41,949INFO-上传文件最后修改时间:2016/07/10 22:36:57
+ 2016-07-31 14:18:41,962INFO-文件:160710-left.csv 已上传完
+ 2016-07-31 14:18:41,979INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihnb5h4fqgnvw|59c818d9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihnb5h4fqgnvw|59c818d9, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 14:18:42,090INFO-2#机台本次数据采集文件:160710-left.csv完成，结果:Fail 上传数据行:-1  耗时:0.041(S)
+ 2016-07-31 14:18:43,129ERROR-
+ 2016-07-31 14:18:43,129INFO-本次Job耗时(S):1.208
+ 2016-07-31 14:18:43,129INFO-本次Job结束,下次Job开始时间:2016/07/31 14:23:43
+ 2016-07-31 14:20:18,619INFO-停止扫描！
+ 2016-07-31 14:26:44,480INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 14:26:44,485INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 14:26:44,486INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 14:26:44,487INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 14:26:44,560WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:26:44,561INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:26:44,565INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:26:44,565INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:26:44,565INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:26:44,565INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:26:44,729INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:26:44,735INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:26:44,742INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:26:44,745INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:26:44,784INFO-MLog clients using log4j logging.
+ 2016-07-31 14:26:44,827INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 14:26:44,986INFO-系统配置信息读取成功！
+ 2016-07-31 14:27:14,990INFO-本次Job开始执行
+ 2016-07-31 14:27:14,991INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:27:14,992INFO-正在监控:1号机台
+ 2016-07-31 14:27:15,011INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:27:15,011INFO-正在监控:2号机台
+ 2016-07-31 14:27:15,012INFO-正在上传文件:160711-left.csv
+ 2016-07-31 14:27:15,014INFO-上传文件大小:636.01KB
+ 2016-07-31 14:27:15,016INFO-上传文件最后修改时间:2016/07/11 22:59:07
+ 2016-07-31 14:27:15,127INFO-文件:160711-left.csv 已上传完
+ 2016-07-31 14:27:15,144INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihnm5dp2r0aol|7b712193, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihnm5dp2r0aol|7b712193, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 14:27:15,240INFO-2#机台本次数据采集文件:160711-left.csv完成，结果:Fail 上传数据行:-1  耗时:0.026(S)
+ 2016-07-31 14:27:16,276ERROR-
+ 2016-07-31 14:27:16,277INFO-本次Job耗时(S):1.288
+ 2016-07-31 14:27:16,277INFO-本次Job结束,下次Job开始时间:2016/07/31 14:32:16
+ 2016-07-31 14:28:01,396INFO-停止扫描！
+ 2016-07-31 14:32:58,350INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 14:32:58,355INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 14:32:58,357INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 14:32:58,357INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 14:32:58,419WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:32:58,420INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:32:58,435INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:32:58,435INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:32:58,435INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:32:58,435INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:32:58,605INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:32:58,612INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:32:58,620INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:32:58,623INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:32:58,663INFO-MLog clients using log4j logging.
+ 2016-07-31 14:32:58,715INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 14:32:58,878INFO-系统配置信息读取成功！
+ 2016-07-31 14:33:28,882INFO-本次Job开始执行
+ 2016-07-31 14:33:28,884INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:33:28,885INFO-正在监控:1号机台
+ 2016-07-31 14:33:28,908INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:33:28,908INFO-正在监控:2号机台
+ 2016-07-31 14:33:28,912INFO-正在上传文件:160712-left.csv
+ 2016-07-31 14:33:28,914INFO-上传文件大小:1.35MB
+ 2016-07-31 14:33:28,915INFO-上传文件最后修改时间:2016/07/12 22:59:14
+ 2016-07-31 14:33:28,927INFO-文件:160712-left.csv 已上传完
+ 2016-07-31 14:33:28,946INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihnu5v91kcw2n|19af9e98, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihnu5v91kcw2n|19af9e98, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 14:33:29,061INFO-2#机台本次数据采集文件:160712-left.csv完成，结果:Fail 上传数据行:-1  耗时:0.052(S)
+ 2016-07-31 14:33:30,098ERROR-
+ 2016-07-31 14:33:30,099INFO-本次Job耗时(S):1.218
+ 2016-07-31 14:33:30,099INFO-本次Job结束,下次Job开始时间:2016/07/31 14:38:30
+ 2016-07-31 14:36:38,624INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 14:36:38,630INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 14:36:38,631INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 14:36:38,632INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 14:36:38,694WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:36:38,695INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:36:38,700INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:36:38,700INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:36:38,700INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:36:38,700INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:36:38,869INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:36:38,876INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:36:38,883INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:36:38,886INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:36:38,927INFO-MLog clients using log4j logging.
+ 2016-07-31 14:36:38,972INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 14:36:39,137INFO-系统配置信息读取成功！
+ 2016-07-31 14:37:09,142INFO-本次Job开始执行
+ 2016-07-31 14:37:09,144INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:37:09,145INFO-正在监控:1号机台
+ 2016-07-31 14:37:09,165INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:37:09,166INFO-正在监控:2号机台
+ 2016-07-31 14:37:09,168INFO-正在上传文件:160713-left.csv
+ 2016-07-31 14:37:09,169INFO-上传文件大小:1.31MB
+ 2016-07-31 14:37:09,171INFO-上传文件最后修改时间:2016/07/13 22:59:49
+ 2016-07-31 14:37:09,182INFO-文件:160713-left.csv 已上传完
+ 2016-07-31 14:37:09,202INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihnyvtp1n1hdwt|64273f4e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihnyvtp1n1hdwt|64273f4e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 14:37:09,312INFO-2#机台本次数据采集文件:160713-left.csv完成，结果:Fail 上传数据行:-1  耗时:0.041(S)
+ 2016-07-31 14:37:10,367ERROR-
+ 2016-07-31 14:37:10,368INFO-本次Job耗时(S):1.227
+ 2016-07-31 14:37:10,368INFO-本次Job结束,下次Job开始时间:2016/07/31 14:42:10
+ 2016-07-31 14:42:09,154INFO-本次Job开始执行
+ 2016-07-31 14:42:09,155INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:42:09,155INFO-正在监控:1号机台
+ 2016-07-31 14:42:09,171INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:42:09,172INFO-正在监控:2号机台
+ 2016-07-31 14:42:09,184INFO-本次Job耗时(S):0.029
+ 2016-07-31 14:42:09,184INFO-本次Job结束,下次Job开始时间:2016/07/31 14:47:09
+ 2016-07-31 14:43:20,142INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 14:43:20,147INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 14:43:20,148INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 14:43:20,149INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 14:43:20,215WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:43:20,216INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:43:20,221INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:43:20,221INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:43:20,221INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:43:20,221INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:43:20,393INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:43:20,401INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:43:20,408INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:43:20,412INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:43:20,452INFO-MLog clients using log4j logging.
+ 2016-07-31 14:43:20,497INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 14:43:20,661INFO-系统配置信息读取成功！
+ 2016-07-31 14:43:50,665INFO-本次Job开始执行
+ 2016-07-31 14:43:50,667INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:43:50,668INFO-正在监控:1号机台
+ 2016-07-31 14:43:50,688INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:43:50,690INFO-正在监控:2号机台
+ 2016-07-31 14:43:50,696INFO-本次Job耗时(S):0.032
+ 2016-07-31 14:43:50,696INFO-本次Job结束,下次Job开始时间:2016/07/31 14:48:50
+ 2016-07-31 14:46:25,332INFO-停止扫描！
+ 2016-07-31 14:46:26,444WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:46:26,444INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:46:26,444INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:46:26,445INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:46:26,445INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:46:26,445INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:46:26,493INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:46:26,493INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:46:26,494INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:46:26,494INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:46:26,500INFO-系统配置信息读取成功！
+ 2016-07-31 14:46:56,503INFO-本次Job开始执行
+ 2016-07-31 14:46:56,504INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:46:56,504INFO-正在监控:1号机台
+ 2016-07-31 14:46:56,537INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:46:56,538INFO-正在监控:2号机台
+ 2016-07-31 14:46:56,540INFO-正在上传文件:160714-left.csv
+ 2016-07-31 14:46:56,541INFO-上传文件大小:818.37KB
+ 2016-07-31 14:46:56,544INFO-上传文件最后修改时间:2016/07/14 22:58:13
+ 2016-07-31 14:46:56,551INFO-文件:160714-left.csv 已上传完
+ 2016-07-31 14:46:56,570INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9iho7hn6yd1nkn|5043153c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9iho7hn6yd1nkn|5043153c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 14:47:20,563INFO-2#机台本次数据采集文件:160714-left.csv完成，结果:Succeed 上传数据行:733  耗时:23.925(S)
+ 2016-07-31 14:47:21,612ERROR-
+ 2016-07-31 14:47:21,613INFO-本次Job耗时(S):25.11
+ 2016-07-31 14:47:21,613INFO-本次Job结束,下次Job开始时间:2016/07/31 14:52:21
+ 2016-07-31 14:52:20,294INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 14:52:20,299INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 14:52:20,300INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 14:52:20,301INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 14:52:20,362WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:52:20,363INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:52:20,368INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:52:20,368INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:52:20,368INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:52:20,368INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:52:20,539INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:52:20,546INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:52:20,553INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:52:20,556INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:52:20,596INFO-MLog clients using log4j logging.
+ 2016-07-31 14:52:20,640INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 14:52:20,801INFO-系统配置信息读取成功！
+ 2016-07-31 14:52:50,808INFO-本次Job开始执行
+ 2016-07-31 14:52:50,811INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:52:50,813INFO-正在监控:1号机台
+ 2016-07-31 14:52:50,854INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:52:50,854INFO-正在监控:2号机台
+ 2016-07-31 14:52:50,856INFO-正在上传文件:160715-left.csv
+ 2016-07-31 14:52:50,858INFO-上传文件大小:1.09MB
+ 2016-07-31 14:52:50,859INFO-上传文件最后修改时间:2016/07/15 22:59:14
+ 2016-07-31 14:52:50,868INFO-文件:160715-left.csv 已上传完
+ 2016-07-31 14:52:50,886INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihoj2f69rfv3a|f7f0d94, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihoj2f69rfv3a|f7f0d94, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 14:53:28,939INFO-2#机台本次数据采集文件:160715-left.csv完成，结果:Succeed 上传数据行:1008  耗时:37.978(S)
+ 2016-07-31 14:53:29,985ERROR-
+ 2016-07-31 14:53:29,986INFO-本次Job耗时(S):39.182
+ 2016-07-31 14:53:29,987INFO-本次Job结束,下次Job开始时间:2016/07/31 14:58:29
+ 2016-07-31 14:56:59,290INFO-停止扫描！
+ 2016-07-31 14:57:30,503INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 14:57:30,507INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 14:57:30,509INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 14:57:30,509INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 14:57:30,572WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 14:57:30,573INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 14:57:30,578INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 14:57:30,578INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 14:57:30,578INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 14:57:30,578INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 14:57:30,772INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 14:57:30,778INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 14:57:30,786INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 14:57:30,789INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 14:57:30,828INFO-MLog clients using log4j logging.
+ 2016-07-31 14:57:30,872INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 14:57:31,031INFO-系统配置信息读取成功！
+ 2016-07-31 14:58:01,037INFO-本次Job开始执行
+ 2016-07-31 14:58:01,040INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 14:58:01,043INFO-正在监控:1号机台
+ 2016-07-31 14:58:01,081INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 14:58:01,082INFO-正在监控:2号机台
+ 2016-07-31 14:58:01,084INFO-正在上传文件:160715-left.csv
+ 2016-07-31 14:58:01,085INFO-上传文件大小:1.09MB
+ 2016-07-31 14:58:01,086INFO-上传文件最后修改时间:2016/07/15 22:59:14
+ 2016-07-31 14:58:01,097INFO-文件:160715-left.csv 已上传完
+ 2016-07-31 14:58:01,115INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihoppsq6ufvjj|5e54777e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihoppsq6ufvjj|5e54777e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 14:58:09,705INFO-2#机台本次数据采集文件:160715-left.csv完成，结果:Succeed 上传数据行:0  耗时:8.527(S)
+ 2016-07-31 14:58:10,767INFO-本次Job耗时(S):9.732
+ 2016-07-31 14:58:10,767INFO-本次Job结束,下次Job开始时间:2016/07/31 15:03:10
+ 2016-07-31 14:58:24,630INFO-停止扫描！
+ 2016-07-31 15:00:22,914INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-31 15:00:22,920INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-31 15:00:22,921INFO-HHH000206: hibernate.properties not found
+ 2016-07-31 15:00:22,922INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-31 15:00:22,986WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-31 15:00:22,987INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-31 15:00:22,992INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-31 15:00:22,992INFO-HHH000006: Autocommit mode: false
+ 2016-07-31 15:00:22,992INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-31 15:00:22,992INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-31 15:00:23,172INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-31 15:00:23,179INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-31 15:00:23,187INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-31 15:00:23,190INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-31 15:00:23,233INFO-MLog clients using log4j logging.
+ 2016-07-31 15:00:23,281INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-31 15:00:23,450INFO-系统配置信息读取成功！
+ 2016-07-31 15:00:53,455INFO-本次Job开始执行
+ 2016-07-31 15:00:53,457INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 15:00:53,458INFO-正在监控:1号机台
+ 2016-07-31 15:00:53,469INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 15:00:53,469INFO-正在监控:2号机台
+ 2016-07-31 15:00:53,470INFO-正在上传文件:160715-left.csv
+ 2016-07-31 15:00:53,471INFO-上传文件大小:1.09MB
+ 2016-07-31 15:00:53,472INFO-上传文件最后修改时间:2016/07/15 22:59:14
+ 2016-07-31 15:00:53,483INFO-文件:160715-left.csv 已上传完
+ 2016-07-31 15:00:53,501INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9ihotetsduzzwl|617d7c7f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9ihotetsduzzwl|617d7c7f, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-31 15:01:02,098INFO-2#机台本次数据采集文件:160715-left.csv完成，结果:Succeed 上传数据行:0  耗时:8.53(S)
+ 2016-07-31 15:01:03,137INFO-正在上传文件:160716-left.csv
+ 2016-07-31 15:01:03,138INFO-上传文件大小:963.12KB
+ 2016-07-31 15:01:03,139INFO-上传文件最后修改时间:2016/07/16 22:57:32
+ 2016-07-31 15:01:03,152INFO-文件:160716-left.csv 已上传完
+ 2016-07-31 15:01:33,338INFO-2#机台本次数据采集文件:160716-left.csv完成，结果:Succeed 上传数据行:869  耗时:30.175(S)
+ 2016-07-31 15:01:34,349INFO-正在上传文件:160717-left.csv
+ 2016-07-31 15:01:34,350INFO-上传文件大小:788.28KB
+ 2016-07-31 15:01:34,350INFO-上传文件最后修改时间:2016/07/17 19:58:58
+ 2016-07-31 15:01:34,363INFO-文件:160717-left.csv 已上传完
+ 2016-07-31 15:01:49,294INFO-2#机台本次数据采集文件:160717-left.csv完成，结果:Succeed 上传数据行:714  耗时:14.921(S)
+ 2016-07-31 15:01:50,301INFO-正在上传文件:160718-left.csv
+ 2016-07-31 15:01:50,302INFO-上传文件大小:533.51KB
+ 2016-07-31 15:01:50,302INFO-上传文件最后修改时间:2016/07/18 22:58:47
+ 2016-07-31 15:01:50,312INFO-文件:160718-left.csv 已上传完
+ 2016-07-31 15:01:58,710INFO-2#机台本次数据采集文件:160718-left.csv完成，结果:Succeed 上传数据行:489  耗时:8.387(S)
+ 2016-07-31 15:01:59,718INFO-正在上传文件:160719-left.csv
+ 2016-07-31 15:01:59,718INFO-上传文件大小:1.03MB
+ 2016-07-31 15:01:59,719INFO-上传文件最后修改时间:2016/07/19 22:59:51
+ 2016-07-31 15:01:59,732INFO-文件:160719-left.csv 已上传完
+ 2016-07-31 15:02:34,310INFO-2#机台本次数据采集文件:160719-left.csv完成，结果:Succeed 上传数据行:957  耗时:34.568(S)
+ 2016-07-31 15:02:35,317INFO-本次Job耗时(S):101.864
+ 2016-07-31 15:02:35,318INFO-本次Job结束,下次Job开始时间:2016/07/31 15:07:35
+ 2016-07-31 15:05:53,461INFO-本次Job开始执行
+ 2016-07-31 15:05:53,461INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 15:05:53,461INFO-正在监控:1号机台
+ 2016-07-31 15:05:53,465INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 15:05:53,465INFO-正在监控:2号机台
+ 2016-07-31 15:05:53,466INFO-本次Job耗时(S):0.0050
+ 2016-07-31 15:05:53,467INFO-本次Job结束,下次Job开始时间:2016/07/31 15:10:53
+ 2016-07-31 15:10:53,474INFO-本次Job开始执行
+ 2016-07-31 15:10:53,474INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 15:10:53,474INFO-正在监控:1号机台
+ 2016-07-31 15:10:53,477INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 15:10:53,478INFO-正在监控:2号机台
+ 2016-07-31 15:10:53,479INFO-本次Job耗时(S):0.0050
+ 2016-07-31 15:10:53,479INFO-本次Job结束,下次Job开始时间:2016/07/31 15:15:53
+ 2016-07-31 15:15:53,487INFO-本次Job开始执行
+ 2016-07-31 15:15:53,488INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 15:15:53,489INFO-正在监控:1号机台
+ 2016-07-31 15:15:53,491INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 15:15:53,492INFO-正在监控:2号机台
+ 2016-07-31 15:15:53,494INFO-本次Job耗时(S):0.0070
+ 2016-07-31 15:15:53,494INFO-本次Job结束,下次Job开始时间:2016/07/31 15:20:53
+ 2016-07-31 15:20:53,500INFO-本次Job开始执行
+ 2016-07-31 15:20:53,500INFO-本地目录位置:D:\Backup\SPC\201607\1
+ 2016-07-31 15:20:53,500INFO-正在监控:1号机台
+ 2016-07-31 15:20:53,504INFO-本地目录位置:D:\Backup\SPC\201607\2
+ 2016-07-31 15:20:53,504INFO-正在监控:2号机台
+ 2016-07-31 15:20:53,505INFO-本次Job耗时(S):0.0050
+ 2016-07-31 15:20:53,505INFO-本次Job结束,下次Job开始时间:2016/07/31 15:25:53
+ 2016-07-31 15:21:48,247INFO-停止扫描！
+ 

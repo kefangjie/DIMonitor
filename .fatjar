@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sat Jul 23 09:36:50 CST 2016
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=DIMonitorApp_fat.jar
+manifest.mergeall=true
+manifest.mainclass=cc.ttm.di.mainform.MainForm
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<jar|forms-1.1.0.jar>
+includes=

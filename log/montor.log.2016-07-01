@@ -1,0 +1,328 @@
+2016-07-01 11:47:15,744INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 11:47:15,749INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 11:47:15,750INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 11:47:15,751INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 11:47:15,816WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 11:47:15,817INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 11:47:15,822INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 11:47:15,822INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 11:47:15,822INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 11:47:15,822INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 11:47:16,002INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 11:47:16,009INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 11:47:16,017INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 11:47:16,021INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 11:47:16,061INFO-MLog clients using log4j logging.
+ 2016-07-01 11:47:16,112INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 11:47:16,266WARN-SQL Error: 936, SQLState: 42000
+ 2016-07-01 11:47:16,266ERROR-ORA-00936: 缺失表达式
+
+ 2016-07-01 17:29:34,024INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 17:29:34,031INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 17:29:34,032INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 17:29:34,033INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 17:29:34,117WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 17:29:34,118INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 17:29:34,133INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 17:29:34,133INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 17:29:34,133INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 17:29:34,133INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 17:29:34,340INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 17:29:34,348INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 17:29:34,356INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 17:29:34,360INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 17:29:34,413INFO-MLog clients using log4j logging.
+ 2016-07-01 17:29:34,491INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 17:29:34,685INFO-数据字段信息读取完成
+ 2016-07-01 17:29:34,687INFO-本地目录创建成功D:\Backup\SPC\20160701\1
+ 2016-07-01 17:29:34,688INFO-正在监控:1机台
+ 2016-07-01 17:29:34,689INFO-本地目录创建成功D:\Backup\SPC\20160701\1\2
+ 2016-07-01 17:29:34,689INFO-正在监控:2机台
+ 2016-07-01 17:47:55,487INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 17:47:55,492INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 17:47:55,493INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 17:47:55,496INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 17:47:55,559WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 17:47:55,560INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 17:47:55,565INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 17:47:55,565INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 17:47:55,565INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 17:47:55,565INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 17:47:55,739INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 17:47:55,746INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 17:47:55,754INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 17:47:55,757INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 17:47:55,797INFO-MLog clients using log4j logging.
+ 2016-07-01 17:47:55,844INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 17:47:56,012INFO-数据字段信息读取完成
+ 2016-07-01 17:47:56,013INFO-本地目录位置:D:\Backup\SPC\20160701\1
+ 2016-07-01 17:47:56,014INFO-正在监控:1机台
+ 2016-07-01 17:47:56,014INFO-本地目录创建成功D:\Backup\SPC\20160701\2
+ 2016-07-01 17:47:56,015INFO-正在监控:2机台
+ 2016-07-01 17:50:12,836WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 17:50:12,836INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 17:50:12,836INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 17:50:12,836INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 17:50:12,837INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 17:50:12,837INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 17:50:12,881INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 17:50:12,881INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 17:50:12,882INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 17:50:12,882INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 17:50:12,885INFO-数据字段信息读取完成
+ 2016-07-01 17:50:12,886INFO-本地目录位置:D:\Backup\SPC\20160701\1
+ 2016-07-01 17:50:12,886INFO-正在监控:1机台
+ 2016-07-01 17:50:12,886INFO-本地目录位置:D:\Backup\SPC\20160701\2
+ 2016-07-01 17:50:12,886INFO-正在监控:2机台
+ 2016-07-01 17:52:18,786INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 17:52:18,791INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 17:52:18,792INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 17:52:18,793INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 17:52:18,855WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 17:52:18,856INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 17:52:18,861INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 17:52:18,861INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 17:52:18,861INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 17:52:18,861INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 17:52:19,034INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 17:52:19,041INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 17:52:19,049INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 17:52:19,052INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 17:52:19,093INFO-MLog clients using log4j logging.
+ 2016-07-01 17:52:19,140INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 17:52:19,306INFO-数据字段信息读取完成
+ 2016-07-01 17:55:22,365INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 17:55:22,371INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 17:55:22,372INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 17:55:22,373INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 17:55:22,439WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 17:55:22,440INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 17:55:22,445INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 17:55:22,445INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 17:55:22,445INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 17:55:22,446INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 17:55:22,625INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 17:55:22,632INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 17:55:22,640INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 17:55:22,643INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 17:55:22,684INFO-MLog clients using log4j logging.
+ 2016-07-01 17:55:22,735INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 17:55:22,911INFO-数据字段信息读取完成
+ 2016-07-01 17:55:22,912INFO-本地目录创建成功D:\Backup\SPC\20165501\1
+ 2016-07-01 17:55:22,913INFO-正在监控:1机台
+ 2016-07-01 17:55:22,915ERROR-Illegal pattern character 'Y'
+ 2016-07-01 17:57:02,417INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 17:57:02,422INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 17:57:02,423INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 17:57:02,424INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 17:57:02,487WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 17:57:02,488INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 17:57:02,493INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 17:57:02,493INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 17:57:02,493INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 17:57:02,493INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 17:57:02,667INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 17:57:02,673INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 17:57:02,681INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 17:57:02,684INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 17:57:02,725INFO-MLog clients using log4j logging.
+ 2016-07-01 17:57:02,771INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 17:57:02,935INFO-数据字段信息读取完成
+ 2016-07-01 17:57:02,936INFO-本地目录创建成功D:\Backup\SPC\20165701\1
+ 2016-07-01 17:57:02,938INFO-正在监控:1机台
+ 2016-07-01 17:57:02,942INFO-本地目录创建成功D:\Backup\SPC\20165701\2
+ 2016-07-01 17:57:02,942INFO-正在监控:2机台
+ 2016-07-01 18:02:03,268INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 18:02:03,274INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 18:02:03,275INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 18:02:03,276INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 18:02:03,338WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 18:02:03,339INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 18:02:03,344INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 18:02:03,344INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 18:02:03,345INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 18:02:03,345INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 18:02:03,515INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 18:02:03,522INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 18:02:03,529INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 18:02:03,533INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 18:02:03,573INFO-MLog clients using log4j logging.
+ 2016-07-01 18:02:03,619INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 18:02:03,784INFO-数据字段信息读取完成
+ 2016-07-01 18:02:03,785INFO-本地目录创建成功D:\Backup\SPC\20160201\1
+ 2016-07-01 18:02:03,786INFO-正在监控:1机台
+ 2016-07-01 18:02:03,787INFO-本地目录创建成功D:\Backup\SPC\20160201\2
+ 2016-07-01 18:02:03,787INFO-正在监控:2机台
+ 2016-07-01 18:03:33,901INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 18:03:33,906INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 18:03:33,907INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 18:03:33,908INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 18:03:33,970WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 18:03:33,971INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 18:03:33,976INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 18:03:33,976INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 18:03:33,976INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 18:03:33,977INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 18:03:34,149INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 18:03:34,156INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 18:03:34,163INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 18:03:34,167INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 18:03:34,207INFO-MLog clients using log4j logging.
+ 2016-07-01 18:03:34,253INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 18:03:34,416INFO-数据字段信息读取完成
+ 2016-07-01 18:03:34,421INFO-本地目录创建成功D:\Backup\SPC\20160301\1
+ 2016-07-01 18:03:34,423INFO-正在监控:1机台
+ 2016-07-01 18:03:34,424INFO-本地目录创建成功D:\Backup\SPC\20160301\2
+ 2016-07-01 18:03:34,424INFO-正在监控:2机台
+ 2016-07-01 18:04:55,256INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 18:04:55,261INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 18:04:55,262INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 18:04:55,263INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 18:04:55,327WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 18:04:55,328INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 18:04:55,333INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 18:04:55,333INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 18:04:55,333INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 18:04:55,333INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 18:04:55,504INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 18:04:55,511INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 18:04:55,518INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 18:04:55,522INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 18:04:55,562INFO-MLog clients using log4j logging.
+ 2016-07-01 18:04:55,608INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 18:04:55,772INFO-数据字段信息读取完成
+ 2016-07-01 18:04:55,776INFO-本地目录创建成功D:\Backup\SPC\20160401\1
+ 2016-07-01 18:04:55,778INFO-正在监控:1机台
+ 2016-07-01 18:04:55,780INFO-本地目录创建成功D:\Backup\SPC\20160401\2
+ 2016-07-01 18:04:55,781INFO-正在监控:2机台
+ 2016-07-01 18:08:42,778INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 18:08:42,783INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 18:08:42,784INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 18:08:42,785INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 18:08:42,848WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 18:08:42,849INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 18:08:42,854INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 18:08:42,854INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 18:08:42,854INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 18:08:42,854INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 18:08:43,029INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 18:08:43,036INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 18:08:43,043INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 18:08:43,046INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 18:08:43,087INFO-MLog clients using log4j logging.
+ 2016-07-01 18:08:43,133INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 18:08:43,301INFO-数据字段信息读取完成
+ 2016-07-01 18:08:43,302INFO-本地目录位置:D:\Backup\SPC\20160701\1
+ 2016-07-01 18:08:43,303INFO-正在监控:1机台
+ 2016-07-01 18:08:43,303INFO-本地目录位置:D:\Backup\SPC\20160701\2
+ 2016-07-01 18:08:43,303INFO-正在监控:2机台
+ 2016-07-01 18:09:39,842INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 18:09:39,847INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 18:09:39,848INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 18:09:39,849INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 18:09:39,911WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 18:09:39,912INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 18:09:39,916INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 18:09:39,916INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 18:09:39,917INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 18:09:39,917INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 18:09:40,087INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 18:09:40,094INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 18:09:40,101INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 18:09:40,104INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 18:09:40,145INFO-MLog clients using log4j logging.
+ 2016-07-01 18:09:40,190INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 18:09:40,352INFO-数据字段信息读取完成
+ 2016-07-01 18:09:40,357INFO-本地目录创建成功D:\Backup\SPC\201609183\1
+ 2016-07-01 18:09:40,358INFO-正在监控:1机台
+ 2016-07-01 18:09:40,359INFO-本地目录创建成功D:\Backup\SPC\201609183\2
+ 2016-07-01 18:09:40,359INFO-正在监控:2机台
+ 2016-07-01 18:10:17,322INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 18:10:17,327INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 18:10:17,329INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 18:10:17,329INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 18:10:17,392WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 18:10:17,394INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 18:10:17,399INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 18:10:17,399INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 18:10:17,399INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 18:10:17,399INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 18:10:17,584INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 18:10:17,591INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 18:10:17,598INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 18:10:17,602INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 18:10:17,641INFO-MLog clients using log4j logging.
+ 2016-07-01 18:10:17,687INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 18:10:17,852INFO-数据字段信息读取完成
+ 2016-07-01 18:10:17,853INFO-本地目录创建成功D:\Backup\SPC\20161001\1
+ 2016-07-01 18:10:17,854INFO-正在监控:1机台
+ 2016-07-01 18:10:17,857INFO-本地目录创建成功D:\Backup\SPC\20161001\2
+ 2016-07-01 18:10:17,857INFO-正在监控:2机台
+ 2016-07-01 18:13:19,030INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 18:13:19,035INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 18:13:19,036INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 18:13:19,037INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 18:13:19,105WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 18:13:19,107INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 18:13:19,112INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 18:13:19,112INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 18:13:19,112INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 18:13:19,112INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 18:13:19,298INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 18:13:19,305INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 18:13:19,312INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 18:13:19,316INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 18:13:19,358INFO-MLog clients using log4j logging.
+ 2016-07-01 18:13:19,406INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 18:13:19,581INFO-数据字段信息读取完成
+ 2016-07-01 18:13:19,586INFO-本地目录创建成功D:\Backup\SPC\20161301\1
+ 2016-07-01 18:13:19,587INFO-正在监控:1机台
+ 2016-07-01 18:13:19,590INFO-本地目录创建成功D:\Backup\SPC\20161301\2
+ 2016-07-01 18:13:19,590INFO-正在监控:2机台
+ 2016-07-01 18:16:47,647INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 18:16:47,652INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 18:16:47,653INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 18:16:47,654INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 18:16:47,717WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 18:16:47,718INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 18:16:47,723INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 18:16:47,723INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 18:16:47,723INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 18:16:47,723INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 18:16:47,900INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 18:16:47,907INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 18:16:47,915INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 18:16:47,918INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 18:16:47,959INFO-MLog clients using log4j logging.
+ 2016-07-01 18:16:48,005INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 18:16:48,170INFO-数据字段信息读取完成
+ 2016-07-01 18:16:48,170INFO-本地目录位置:D:\Backup\SPC\20160701\1
+ 2016-07-01 18:16:48,172INFO-正在监控:1机台
+ 2016-07-01 18:16:48,174INFO-本地目录位置:D:\Backup\SPC\20160701\2
+ 2016-07-01 18:16:48,174INFO-正在监控:2机台
+ 2016-07-01 18:18:59,941INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-01 18:18:59,946INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-01 18:18:59,947INFO-HHH000206: hibernate.properties not found
+ 2016-07-01 18:18:59,948INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-01 18:19:00,012WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-01 18:19:00,013INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-01 18:19:00,018INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-01 18:19:00,018INFO-HHH000006: Autocommit mode: false
+ 2016-07-01 18:19:00,018INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-01 18:19:00,018INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-01 18:19:00,193INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-01 18:19:00,200INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-01 18:19:00,207INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-01 18:19:00,211INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-01 18:19:00,252INFO-MLog clients using log4j logging.
+ 2016-07-01 18:19:00,298INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-01 18:19:00,466INFO-数据字段信息读取完成
+ 2016-07-01 18:19:00,467INFO-本地目录位置:D:\Backup\SPC\20160701\1
+ 2016-07-01 18:19:00,468INFO-正在监控:1机台
+ 2016-07-01 18:19:00,471INFO-正在上传文件:160701-right.csv 文件大小:
+ 2016-07-01 18:19:00,483INFO-文件:160701-right.csv 已上传完
+ 2016-07-01 18:19:00,483INFO-本地目录位置:D:\Backup\SPC\20160701\2
+ 2016-07-01 18:19:00,483INFO-正在监控:2机台
+ 2016-07-01 18:19:00,484INFO-正在上传文件:160701-left.csv 文件大小:
+ 2016-07-01 18:19:00,492INFO-文件:160701-left.csv 已上传完
+ 

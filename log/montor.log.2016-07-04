@@ -1,0 +1,653 @@
+2016-07-04 08:51:42,442INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 08:51:42,450INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 08:51:42,451INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 08:51:42,452INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 08:51:42,536WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 08:51:42,537INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 08:51:42,553INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 08:51:42,553INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 08:51:42,554INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 08:51:42,554INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 08:51:42,761INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 08:51:42,770INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 08:51:42,777INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 08:51:42,782INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 08:51:42,835INFO-MLog clients using log4j logging.
+ 2016-07-04 08:51:42,915INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 08:51:43,097INFO-数据字段信息读取完成
+ 2016-07-04 08:52:13,109INFO-本地目录创建成功D:\Backup\SPC\20160704\1
+ 2016-07-04 08:52:13,113INFO-正在监控:1机台
+ 2016-07-04 08:52:13,114INFO-正在上传文件:160704-right.csv 文件大小:
+ 2016-07-04 08:52:13,118INFO-上传文件大小:1.00MB
+ 2016-07-04 08:52:13,119INFO-上传文件最后修改时间:2016/06/21 15:40:40
+ 2016-07-04 08:52:13,135INFO-文件:160704-right.csv 已上传完
+ 2016-07-04 08:52:13,162INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9h1drvclg18y53d2|79f7896f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9h1drvclg18y53d2|79f7896f, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-04 08:52:44,433INFO-1机台本次数据采集文件:160704-right.csv完成，结果:Succeed 上传数据行:932  耗时:31207.0S
+ 2016-07-04 08:52:44,485INFO-本地目录创建成功D:\Backup\SPC\20160704\2
+ 2016-07-04 08:52:44,486INFO-正在监控:2机台
+ 2016-07-04 08:52:44,486INFO-正在上传文件:160704-left.csv 文件大小:
+ 2016-07-04 08:52:44,487INFO-上传文件大小:751.97KB
+ 2016-07-04 08:52:44,489INFO-上传文件最后修改时间:2016/07/01 17:22:22
+ 2016-07-04 08:52:44,498INFO-文件:160704-left.csv 已上传完
+ 2016-07-04 08:52:57,425INFO-2机台本次数据采集文件:160704-left.csv完成，结果:Succeed 上传数据行:678  耗时:12926.0S
+ 2016-07-04 08:52:57,433INFO-本次Job结束,下次Job开始时间:2016/07/04 08:57:57
+ 2016-07-04 09:11:48,554INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 09:11:48,560INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 09:11:48,561INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 09:11:48,562INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 09:11:48,624WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 09:11:48,625INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 09:11:48,629INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 09:11:48,630INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 09:11:48,630INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 09:11:48,630INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 09:11:48,801INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 09:11:48,808INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 09:11:48,815INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 09:11:48,818INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 09:11:48,858INFO-MLog clients using log4j logging.
+ 2016-07-04 09:11:48,905INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 09:11:49,069INFO-数据字段信息读取完成
+ 2016-07-04 09:12:19,074INFO-本次Job开始执行
+ 2016-07-04 09:12:19,077INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 09:12:19,079INFO-正在监控:1机台
+ 2016-07-04 09:12:19,081INFO-正在上传文件:160704-right.csv 文件大小:
+ 2016-07-04 09:12:19,084INFO-上传文件大小:1.00MB
+ 2016-07-04 09:12:19,086INFO-上传文件最后修改时间:2016/06/21 15:40:40
+ 2016-07-04 09:12:19,101INFO-文件:160704-right.csv 已上传完
+ 2016-07-04 09:12:19,124INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9h1dsl760d0eoci|37c398e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9h1dsl760d0eoci|37c398e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-04 09:12:49,836INFO-1机台本次数据采集文件:160704-right.csv完成，结果:Succeed 上传数据行:932  耗时:30639.0S
+ 2016-07-04 09:12:49,901INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 09:12:49,902INFO-正在监控:2机台
+ 2016-07-04 09:12:49,903INFO-正在上传文件:160704-left.csv 文件大小:
+ 2016-07-04 09:12:49,905INFO-上传文件大小:751.97KB
+ 2016-07-04 09:12:49,908INFO-上传文件最后修改时间:2016/07/01 17:22:22
+ 2016-07-04 09:12:49,922INFO-文件:160704-left.csv 已上传完
+ 2016-07-04 09:13:02,942INFO-2机台本次数据采集文件:160704-left.csv完成，结果:Succeed 上传数据行:678  耗时:13012.0S
+ 2016-07-04 09:13:02,950INFO-本次Job耗时(S):43877.0
+ 2016-07-04 09:13:02,950INFO-本次Job结束,下次Job开始时间:2016/07/04 09:18:02
+ 2016-07-04 09:17:19,083INFO-本次Job开始执行
+ 2016-07-04 09:17:19,084INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 09:17:19,084INFO-正在监控:1机台
+ 2016-07-04 09:17:19,088INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 09:17:19,089INFO-正在监控:2机台
+ 2016-07-04 09:17:19,090INFO-本次Job耗时(S):7.0
+ 2016-07-04 09:17:19,090INFO-本次Job结束,下次Job开始时间:2016/07/04 09:22:19
+ 2016-07-04 09:22:19,096INFO-本次Job开始执行
+ 2016-07-04 09:22:19,096INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 09:22:19,097INFO-正在监控:1机台
+ 2016-07-04 09:22:19,098INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 09:22:19,100INFO-正在监控:2机台
+ 2016-07-04 09:22:19,101INFO-本次Job耗时(S):5.0
+ 2016-07-04 09:22:19,101INFO-本次Job结束,下次Job开始时间:2016/07/04 09:27:19
+ 2016-07-04 09:27:19,109INFO-本次Job开始执行
+ 2016-07-04 09:27:19,109INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 09:27:19,110INFO-正在监控:1机台
+ 2016-07-04 09:27:19,111INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 09:27:19,114INFO-正在监控:2机台
+ 2016-07-04 09:27:19,116INFO-本次Job耗时(S):7.0
+ 2016-07-04 09:27:19,116INFO-本次Job结束,下次Job开始时间:2016/07/04 09:32:19
+ 2016-07-04 09:32:19,122INFO-本次Job开始执行
+ 2016-07-04 09:32:19,124INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 09:32:19,126INFO-正在监控:1机台
+ 2016-07-04 09:32:19,128INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 09:32:19,128INFO-正在监控:2机台
+ 2016-07-04 09:32:19,129INFO-本次Job耗时(S):7.0
+ 2016-07-04 09:32:19,129INFO-本次Job结束,下次Job开始时间:2016/07/04 09:37:19
+ 2016-07-04 09:37:19,135INFO-本次Job开始执行
+ 2016-07-04 09:37:19,135INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 09:37:19,136INFO-正在监控:1机台
+ 2016-07-04 09:37:19,137INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 09:37:19,139INFO-正在监控:2机台
+ 2016-07-04 09:37:19,139INFO-本次Job耗时(S):4.0
+ 2016-07-04 09:37:19,139INFO-本次Job结束,下次Job开始时间:2016/07/04 09:42:19
+ 2016-07-04 09:40:25,384INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 09:40:25,388INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 09:40:25,389INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 09:40:25,390INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 09:40:25,456WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 09:40:25,457INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 09:40:25,462INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 09:40:25,462INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 09:40:25,462INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 09:40:25,462INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 09:40:25,633INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 09:40:25,640INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 09:40:25,647INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 09:40:25,651INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 09:40:25,690INFO-MLog clients using log4j logging.
+ 2016-07-04 09:40:25,736INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 09:40:25,902INFO-系统系统配置信息读取成功！
+ 2016-07-04 09:40:55,907INFO-本次Job开始执行
+ 2016-07-04 09:40:55,909INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 09:40:55,912INFO-正在监控:1号机台
+ 2016-07-04 09:40:55,914INFO-正在上传文件:160704-right.csv 文件大小:
+ 2016-07-04 09:40:55,917INFO-上传文件大小:1.00MB
+ 2016-07-04 09:40:55,918INFO-上传文件最后修改时间:2016/06/21 15:40:40
+ 2016-07-04 09:40:55,935INFO-文件:160704-right.csv 已上传完
+ 2016-07-04 09:40:55,952INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9h1dtlzvsrco42u|367c218e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9h1dtlzvsrco42u|367c218e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-04 09:41:28,404INFO-1#机台本次数据采集文件:160704-right.csv完成，结果:Succeed 上传数据行:932  耗时:32365.0(S)
+ 2016-07-04 09:41:28,447INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 09:41:28,447INFO-正在监控:2号机台
+ 2016-07-04 09:41:28,448INFO-正在上传文件:160704-left.csv 文件大小:
+ 2016-07-04 09:41:28,449INFO-上传文件大小:751.97KB
+ 2016-07-04 09:41:28,450INFO-上传文件最后修改时间:2016/07/01 17:22:22
+ 2016-07-04 09:41:28,459INFO-文件:160704-left.csv 已上传完
+ 2016-07-04 09:41:41,181INFO-2#机台本次数据采集文件:160704-left.csv完成，结果:Succeed 上传数据行:678  耗时:12708.0(S)
+ 2016-07-04 09:41:41,187INFO-本次Job耗时(S):45282.0
+ 2016-07-04 09:41:41,187INFO-本次Job结束,下次Job开始时间:2016/07/04 09:46:41
+ 2016-07-04 09:45:55,917INFO-本次Job开始执行
+ 2016-07-04 09:45:55,917INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 09:45:55,918INFO-正在监控:1号机台
+ 2016-07-04 09:45:55,922INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 09:45:55,923INFO-正在监控:2号机台
+ 2016-07-04 09:45:55,924INFO-本次Job耗时(S):7.0
+ 2016-07-04 09:45:55,924INFO-本次Job结束,下次Job开始时间:2016/07/04 09:50:55
+ 2016-07-04 09:50:55,930INFO-本次Job开始执行
+ 2016-07-04 09:50:55,930INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 09:50:55,931INFO-正在监控:1号机台
+ 2016-07-04 09:50:55,932INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 09:50:55,935INFO-正在监控:2号机台
+ 2016-07-04 09:50:55,936INFO-本次Job耗时(S):6.0
+ 2016-07-04 09:50:55,936INFO-本次Job结束,下次Job开始时间:2016/07/04 09:55:55
+ 2016-07-04 10:16:02,166INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 10:16:02,171INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 10:16:02,172INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 10:16:02,173INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 10:16:02,237WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 10:16:02,238INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 10:16:02,243INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 10:16:02,243INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 10:16:02,243INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 10:16:02,244INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 10:16:02,417INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 10:16:02,424INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 10:16:02,431INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 10:16:02,434INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 10:16:02,474INFO-MLog clients using log4j logging.
+ 2016-07-04 10:16:02,520INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 10:16:02,685INFO-系统配置信息读取成功！
+ 2016-07-04 10:16:32,690INFO-本次Job开始执行
+ 2016-07-04 10:16:32,692INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 10:16:32,695INFO-正在监控:1号机台
+ 2016-07-04 10:16:32,697INFO-正在上传文件:160704-right.csv 文件大小:
+ 2016-07-04 10:16:32,700INFO-上传文件大小:1.00MB
+ 2016-07-04 10:16:32,700INFO-上传文件最后修改时间:2016/06/21 15:40:40
+ 2016-07-04 10:16:32,715INFO-文件:160704-right.csv 已上传完
+ 2016-07-04 10:16:32,733INFO-Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> true, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sqwgv9h1duvsmwgcjusy|4cad4d40, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sqwgv9h1duvsmwgcjusy|4cad4d40, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:oracle:thin:@10.22.238.235:1521:DEV1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+ 2016-07-04 10:17:05,067INFO-1#机台本次数据采集文件:160704-right.csv完成，结果:Succeed 上传数据行:932  耗时:32.247(S)
+ 2016-07-04 10:17:05,123INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 10:17:05,124INFO-正在监控:2号机台
+ 2016-07-04 10:17:05,124INFO-正在上传文件:160704-left.csv 文件大小:
+ 2016-07-04 10:17:05,125INFO-上传文件大小:751.97KB
+ 2016-07-04 10:17:05,126INFO-上传文件最后修改时间:2016/07/01 17:22:22
+ 2016-07-04 10:17:05,133INFO-文件:160704-left.csv 已上传完
+ 2016-07-04 10:17:18,046INFO-2#机台本次数据采集文件:160704-left.csv完成，结果:Succeed 上传数据行:678  耗时:12.896(S)
+ 2016-07-04 10:17:18,053INFO-本次Job耗时(S):45.365
+ 2016-07-04 10:17:18,054INFO-本次Job结束,下次Job开始时间:2016/07/04 10:22:18
+ 2016-07-04 10:17:47,843INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 10:17:47,848INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 10:17:47,849INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 10:17:47,850INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 10:17:47,912WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 10:17:47,913INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 10:17:47,918INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 10:17:47,918INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 10:17:47,918INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 10:17:47,918INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 10:17:48,157INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 10:17:48,164INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 10:17:48,171INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 10:17:48,175INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 10:17:48,214INFO-MLog clients using log4j logging.
+ 2016-07-04 10:17:48,258INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 10:17:48,420INFO-系统配置信息读取成功！
+ 2016-07-04 10:18:18,425INFO-本次Job开始执行
+ 2016-07-04 10:18:18,427INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 10:18:18,429INFO-正在监控:1号机台
+ 2016-07-04 10:18:18,434INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 10:18:18,435INFO-正在监控:2号机台
+ 2016-07-04 10:18:18,437INFO-本次Job耗时(S):0.014
+ 2016-07-04 10:18:18,438INFO-本次Job结束,下次Job开始时间:2016/07/04 10:23:18
+ 2016-07-04 10:23:18,436INFO-本次Job开始执行
+ 2016-07-04 10:23:18,437INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 10:23:18,438INFO-正在监控:1号机台
+ 2016-07-04 10:23:18,442INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 10:23:18,442INFO-正在监控:2号机台
+ 2016-07-04 10:23:18,444INFO-本次Job耗时(S):0.0070
+ 2016-07-04 10:23:18,444INFO-本次Job结束,下次Job开始时间:2016/07/04 10:28:18
+ 2016-07-04 10:27:51,959INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 10:27:51,965INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 10:27:51,966INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 10:27:51,967INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 10:27:52,030WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 10:27:52,032INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 10:27:52,036INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 10:27:52,036INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 10:27:52,037INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 10:27:52,037INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 10:27:52,210INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 10:27:52,217INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 10:27:52,224INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 10:27:52,228INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 10:27:52,269INFO-MLog clients using log4j logging.
+ 2016-07-04 10:27:52,317INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 10:27:52,480INFO-系统配置信息读取成功！
+ 2016-07-04 10:28:22,486INFO-本次Job开始执行
+ 2016-07-04 10:28:22,489INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 10:28:22,492INFO-正在监控:1号机台
+ 2016-07-04 10:28:22,496INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 10:28:22,497INFO-正在监控:2号机台
+ 2016-07-04 10:28:22,499INFO-本次Job耗时(S):0.015
+ 2016-07-04 10:28:22,500INFO-本次Job结束,下次Job开始时间:2016/07/04 10:33:22
+ 2016-07-04 10:33:22,497INFO-本次Job开始执行
+ 2016-07-04 10:33:22,498INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 10:33:22,499INFO-正在监控:1号机台
+ 2016-07-04 10:33:22,500INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 10:33:22,500INFO-正在监控:2号机台
+ 2016-07-04 10:33:22,501INFO-本次Job耗时(S):0.0040
+ 2016-07-04 10:33:22,501INFO-本次Job结束,下次Job开始时间:2016/07/04 10:38:22
+ 2016-07-04 10:39:07,768INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 10:39:07,773INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 10:39:07,774INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 10:39:07,775INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 10:39:07,838WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 10:39:07,839INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 10:39:07,844INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 10:39:07,844INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 10:39:07,845INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 10:39:07,845INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 10:39:08,016INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 10:39:08,023INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 10:39:08,030INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 10:39:08,033INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 10:39:08,074INFO-MLog clients using log4j logging.
+ 2016-07-04 10:39:08,120INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 10:39:08,285INFO-系统配置信息读取成功！
+ 2016-07-04 10:39:38,291INFO-本次Job开始执行
+ 2016-07-04 10:39:38,294INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 10:39:38,296INFO-正在监控:1号机台
+ 2016-07-04 10:39:38,301INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 10:39:38,302INFO-正在监控:2号机台
+ 2016-07-04 10:39:38,303INFO-本次Job耗时(S):0.014
+ 2016-07-04 10:39:38,304INFO-本次Job结束,下次Job开始时间:2016/07/04 10:44:38
+ 2016-07-04 10:44:38,302INFO-本次Job开始执行
+ 2016-07-04 10:44:38,304INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 10:44:38,304INFO-正在监控:1号机台
+ 2016-07-04 10:44:38,308INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 10:44:38,310INFO-正在监控:2号机台
+ 2016-07-04 10:44:38,312INFO-本次Job耗时(S):0.0090
+ 2016-07-04 10:44:38,312INFO-本次Job结束,下次Job开始时间:2016/07/04 10:49:38
+ 2016-07-04 10:49:38,315INFO-本次Job开始执行
+ 2016-07-04 10:49:38,316INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 10:49:38,316INFO-正在监控:1号机台
+ 2016-07-04 10:49:38,319INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 10:49:38,320INFO-正在监控:2号机台
+ 2016-07-04 10:49:38,322INFO-本次Job耗时(S):0.0060
+ 2016-07-04 10:49:38,322INFO-本次Job结束,下次Job开始时间:2016/07/04 10:54:38
+ 2016-07-04 10:51:53,723INFO-停止扫描！
+ 2016-07-04 10:55:25,723WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 10:55:25,723INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 10:55:25,724INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 10:55:25,724INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 10:55:25,724INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 10:55:25,724INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 10:55:25,770INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 10:55:25,771INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 10:55:25,771INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 10:55:25,771INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 10:55:25,774INFO-系统配置信息读取成功！
+ 2016-07-04 10:55:55,776INFO-本次Job开始执行
+ 2016-07-04 10:55:55,777INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 10:55:55,778INFO-正在监控:1号机台
+ 2016-07-04 10:55:55,780INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 10:55:55,782INFO-正在监控:2号机台
+ 2016-07-04 10:55:55,783INFO-本次Job耗时(S):0.0070
+ 2016-07-04 10:55:55,784INFO-本次Job结束,下次Job开始时间:2016/07/04 11:00:55
+ 2016-07-04 11:00:55,789INFO-本次Job开始执行
+ 2016-07-04 11:00:55,790INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 11:00:55,790INFO-正在监控:1号机台
+ 2016-07-04 11:00:55,793INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 11:00:55,794INFO-正在监控:2号机台
+ 2016-07-04 11:00:55,796INFO-本次Job耗时(S):0.0070
+ 2016-07-04 11:00:55,796INFO-本次Job结束,下次Job开始时间:2016/07/04 11:05:55
+ 2016-07-04 11:05:55,802INFO-本次Job开始执行
+ 2016-07-04 11:05:55,803INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 11:05:55,803INFO-正在监控:1号机台
+ 2016-07-04 11:05:55,805INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 11:05:55,806INFO-正在监控:2号机台
+ 2016-07-04 11:05:55,808INFO-本次Job耗时(S):0.0050
+ 2016-07-04 11:05:55,808INFO-本次Job结束,下次Job开始时间:2016/07/04 11:10:55
+ 2016-07-04 11:06:35,035INFO-停止扫描！
+ 2016-07-04 11:09:59,831INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 11:09:59,835INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 11:09:59,836INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 11:09:59,837INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 11:09:59,899WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 11:09:59,900INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 11:09:59,906INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 11:09:59,906INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 11:09:59,906INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 11:09:59,906INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 11:10:00,069INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 11:10:00,076INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 11:10:00,083INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 11:10:00,086INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 11:10:00,125INFO-MLog clients using log4j logging.
+ 2016-07-04 11:10:00,171INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 11:10:00,330INFO-系统配置信息读取成功！
+ 2016-07-04 11:10:30,334INFO-本次Job开始执行
+ 2016-07-04 11:10:30,335INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 11:10:30,336INFO-正在监控:1号机台
+ 2016-07-04 11:10:30,339INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 11:10:30,339INFO-正在监控:2号机台
+ 2016-07-04 11:10:30,340INFO-本次Job耗时(S):0.0070
+ 2016-07-04 11:10:30,340INFO-本次Job结束,下次Job开始时间:2016/07/04 11:15:30
+ 2016-07-04 11:18:57,758INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 11:18:57,763INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 11:18:57,764INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 11:18:57,765INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 11:18:57,828WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 11:18:57,829INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 11:18:57,833INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 11:18:57,834INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 11:18:57,834INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 11:18:57,834INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 11:18:58,008INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 11:18:58,015INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 11:18:58,022INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 11:18:58,025INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 11:18:58,066INFO-MLog clients using log4j logging.
+ 2016-07-04 11:18:58,111INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 11:18:58,274INFO-系统配置信息读取成功！
+ 2016-07-04 11:19:28,281INFO-本次Job开始执行
+ 2016-07-04 11:19:28,283INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 11:19:28,285INFO-正在监控:1号机台
+ 2016-07-04 11:19:28,292INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 11:19:28,293INFO-正在监控:2号机台
+ 2016-07-04 11:19:28,295INFO-本次Job耗时(S):0.017
+ 2016-07-04 11:19:28,295INFO-本次Job结束,下次Job开始时间:2016/07/04 11:24:28
+ 2016-07-04 11:34:50,479INFO-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+ 2016-07-04 11:34:50,484INFO-HHH000412: Hibernate Core {4.0.1.Final}
+ 2016-07-04 11:34:50,485INFO-HHH000206: hibernate.properties not found
+ 2016-07-04 11:34:50,486INFO-HHH000021: Bytecode provider name : javassist
+ 2016-07-04 11:34:50,551WARN-HHH000022: c3p0 properties were encountered, but the org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider provider class was not found on the classpath; these properties are going to be ignored.
+ 2016-07-04 11:34:50,552INFO-HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2016-07-04 11:34:50,556INFO-HHH000115: Hibernate connection pool size: 20
+ 2016-07-04 11:34:50,557INFO-HHH000006: Autocommit mode: false
+ 2016-07-04 11:34:50,557INFO-HHH000401: using driver [oracle.jdbc.driver.OracleDriver] at URL [jdbc:oracle:thin:@10.22.238.235:1521:DEV1]
+ 2016-07-04 11:34:50,557INFO-HHH000046: Connection properties: {user=WEBERP_GME_DEV, password=****}
+ 2016-07-04 11:34:50,735INFO-HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+ 2016-07-04 11:34:50,742INFO-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+ 2016-07-04 11:34:50,749INFO-HHH000399: Using default transaction strategy (direct JDBC transactions)
+ 2016-07-04 11:34:50,752INFO-HHH000397: Using ASTQueryTranslatorFactory
+ 2016-07-04 11:34:50,793INFO-MLog clients using log4j logging.
+ 2016-07-04 11:34:50,839INFO-Initializing c3p0-0.9.2.1 [built 20-March-2013 11:16:28 +0000; debug? true; trace: 10]
+ 2016-07-04 11:34:51,003INFO-系统配置信息读取成功！
+ 2016-07-04 11:35:21,008INFO-本次Job开始执行
+ 2016-07-04 11:35:21,012INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 11:35:21,015INFO-正在监控:1号机台
+ 2016-07-04 11:35:21,020INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 11:35:21,021INFO-正在监控:2号机台
+ 2016-07-04 11:35:21,023INFO-本次Job耗时(S):0.016
+ 2016-07-04 11:35:21,023INFO-本次Job结束,下次Job开始时间:2016/07/04 11:40:21
+ 2016-07-04 11:40:21,019INFO-本次Job开始执行
+ 2016-07-04 11:40:21,020INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 11:40:21,021INFO-正在监控:1号机台
+ 2016-07-04 11:40:21,024INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 11:40:21,027INFO-正在监控:2号机台
+ 2016-07-04 11:40:21,029INFO-本次Job耗时(S):0.0090
+ 2016-07-04 11:40:21,029INFO-本次Job结束,下次Job开始时间:2016/07/04 11:45:21
+ 2016-07-04 11:45:21,032INFO-本次Job开始执行
+ 2016-07-04 11:45:21,033INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 11:45:21,034INFO-正在监控:1号机台
+ 2016-07-04 11:45:21,038INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 11:45:21,041INFO-正在监控:2号机台
+ 2016-07-04 11:45:21,043INFO-本次Job耗时(S):0.011
+ 2016-07-04 11:45:21,043INFO-本次Job结束,下次Job开始时间:2016/07/04 11:50:21
+ 2016-07-04 11:50:21,045INFO-本次Job开始执行
+ 2016-07-04 11:50:21,046INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 11:50:21,046INFO-正在监控:1号机台
+ 2016-07-04 11:50:21,048INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 11:50:21,050INFO-正在监控:2号机台
+ 2016-07-04 11:50:21,052INFO-本次Job耗时(S):0.0060
+ 2016-07-04 11:50:21,052INFO-本次Job结束,下次Job开始时间:2016/07/04 11:55:21
+ 2016-07-04 11:55:21,058INFO-本次Job开始执行
+ 2016-07-04 11:55:21,059INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 11:55:21,059INFO-正在监控:1号机台
+ 2016-07-04 11:55:21,061INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 11:55:21,062INFO-正在监控:2号机台
+ 2016-07-04 11:55:21,063INFO-本次Job耗时(S):0.0050
+ 2016-07-04 11:55:21,064INFO-本次Job结束,下次Job开始时间:2016/07/04 12:00:21
+ 2016-07-04 12:00:21,071INFO-本次Job开始执行
+ 2016-07-04 12:00:21,071INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:00:21,071INFO-正在监控:1号机台
+ 2016-07-04 12:00:21,072INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:00:21,073INFO-正在监控:2号机台
+ 2016-07-04 12:00:21,073INFO-本次Job耗时(S):0.0020
+ 2016-07-04 12:00:21,073INFO-本次Job结束,下次Job开始时间:2016/07/04 12:05:21
+ 2016-07-04 12:05:21,084INFO-本次Job开始执行
+ 2016-07-04 12:05:21,084INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:05:21,085INFO-正在监控:1号机台
+ 2016-07-04 12:05:21,085INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:05:21,086INFO-正在监控:2号机台
+ 2016-07-04 12:05:21,087INFO-本次Job耗时(S):0.0030
+ 2016-07-04 12:05:21,087INFO-本次Job结束,下次Job开始时间:2016/07/04 12:10:21
+ 2016-07-04 12:10:21,097INFO-本次Job开始执行
+ 2016-07-04 12:10:21,097INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:10:21,097INFO-正在监控:1号机台
+ 2016-07-04 12:10:21,098INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:10:21,099INFO-正在监控:2号机台
+ 2016-07-04 12:10:21,100INFO-本次Job耗时(S):0.0020
+ 2016-07-04 12:10:21,100INFO-本次Job结束,下次Job开始时间:2016/07/04 12:15:21
+ 2016-07-04 12:15:21,110INFO-本次Job开始执行
+ 2016-07-04 12:15:21,110INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:15:21,110INFO-正在监控:1号机台
+ 2016-07-04 12:15:21,112INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:15:21,112INFO-正在监控:2号机台
+ 2016-07-04 12:15:21,113INFO-本次Job耗时(S):0.0030
+ 2016-07-04 12:15:21,113INFO-本次Job结束,下次Job开始时间:2016/07/04 12:20:21
+ 2016-07-04 12:20:21,123INFO-本次Job开始执行
+ 2016-07-04 12:20:21,123INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:20:21,123INFO-正在监控:1号机台
+ 2016-07-04 12:20:21,124INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:20:21,124INFO-正在监控:2号机台
+ 2016-07-04 12:20:21,125INFO-本次Job耗时(S):0.0020
+ 2016-07-04 12:20:21,125INFO-本次Job结束,下次Job开始时间:2016/07/04 12:25:21
+ 2016-07-04 12:25:21,136INFO-本次Job开始执行
+ 2016-07-04 12:25:21,136INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:25:21,136INFO-正在监控:1号机台
+ 2016-07-04 12:25:21,137INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:25:21,137INFO-正在监控:2号机台
+ 2016-07-04 12:25:21,138INFO-本次Job耗时(S):0.0020
+ 2016-07-04 12:25:21,138INFO-本次Job结束,下次Job开始时间:2016/07/04 12:30:21
+ 2016-07-04 12:30:21,149INFO-本次Job开始执行
+ 2016-07-04 12:30:21,150INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:30:21,150INFO-正在监控:1号机台
+ 2016-07-04 12:30:21,154INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:30:21,155INFO-正在监控:2号机台
+ 2016-07-04 12:30:21,157INFO-本次Job耗时(S):0.0070
+ 2016-07-04 12:30:21,157INFO-本次Job结束,下次Job开始时间:2016/07/04 12:35:21
+ 2016-07-04 12:35:21,162INFO-本次Job开始执行
+ 2016-07-04 12:35:21,163INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:35:21,163INFO-正在监控:1号机台
+ 2016-07-04 12:35:21,165INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:35:21,165INFO-正在监控:2号机台
+ 2016-07-04 12:35:21,167INFO-本次Job耗时(S):0.0050
+ 2016-07-04 12:35:21,167INFO-本次Job结束,下次Job开始时间:2016/07/04 12:40:21
+ 2016-07-04 12:40:21,175INFO-本次Job开始执行
+ 2016-07-04 12:40:21,176INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:40:21,176INFO-正在监控:1号机台
+ 2016-07-04 12:40:21,177INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:40:21,178INFO-正在监控:2号机台
+ 2016-07-04 12:40:21,180INFO-本次Job耗时(S):0.0040
+ 2016-07-04 12:40:21,180INFO-本次Job结束,下次Job开始时间:2016/07/04 12:45:21
+ 2016-07-04 12:45:21,188INFO-本次Job开始执行
+ 2016-07-04 12:45:21,189INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:45:21,189INFO-正在监控:1号机台
+ 2016-07-04 12:45:21,191INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:45:21,191INFO-正在监控:2号机台
+ 2016-07-04 12:45:21,193INFO-本次Job耗时(S):0.0040
+ 2016-07-04 12:45:21,193INFO-本次Job结束,下次Job开始时间:2016/07/04 12:50:21
+ 2016-07-04 12:50:21,201INFO-本次Job开始执行
+ 2016-07-04 12:50:21,202INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:50:21,202INFO-正在监控:1号机台
+ 2016-07-04 12:50:21,204INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:50:21,204INFO-正在监控:2号机台
+ 2016-07-04 12:50:21,206INFO-本次Job耗时(S):0.0050
+ 2016-07-04 12:50:21,206INFO-本次Job结束,下次Job开始时间:2016/07/04 12:55:21
+ 2016-07-04 12:55:21,214INFO-本次Job开始执行
+ 2016-07-04 12:55:21,215INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 12:55:21,215INFO-正在监控:1号机台
+ 2016-07-04 12:55:21,217INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 12:55:21,217INFO-正在监控:2号机台
+ 2016-07-04 12:55:21,219INFO-本次Job耗时(S):0.0040
+ 2016-07-04 12:55:21,219INFO-本次Job结束,下次Job开始时间:2016/07/04 13:00:21
+ 2016-07-04 13:00:21,227INFO-本次Job开始执行
+ 2016-07-04 13:00:21,228INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:00:21,228INFO-正在监控:1号机台
+ 2016-07-04 13:00:21,230INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:00:21,231INFO-正在监控:2号机台
+ 2016-07-04 13:00:21,232INFO-本次Job耗时(S):0.0050
+ 2016-07-04 13:00:21,232INFO-本次Job结束,下次Job开始时间:2016/07/04 13:05:21
+ 2016-07-04 13:05:21,240INFO-本次Job开始执行
+ 2016-07-04 13:05:21,241INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:05:21,241INFO-正在监控:1号机台
+ 2016-07-04 13:05:21,243INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:05:21,243INFO-正在监控:2号机台
+ 2016-07-04 13:05:21,245INFO-本次Job耗时(S):0.0040
+ 2016-07-04 13:05:21,245INFO-本次Job结束,下次Job开始时间:2016/07/04 13:10:21
+ 2016-07-04 13:10:21,253INFO-本次Job开始执行
+ 2016-07-04 13:10:21,254INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:10:21,254INFO-正在监控:1号机台
+ 2016-07-04 13:10:21,255INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:10:21,256INFO-正在监控:2号机台
+ 2016-07-04 13:10:21,258INFO-本次Job耗时(S):0.0040
+ 2016-07-04 13:10:21,258INFO-本次Job结束,下次Job开始时间:2016/07/04 13:15:21
+ 2016-07-04 13:15:21,266INFO-本次Job开始执行
+ 2016-07-04 13:15:21,267INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:15:21,267INFO-正在监控:1号机台
+ 2016-07-04 13:15:21,268INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:15:21,268INFO-正在监控:2号机台
+ 2016-07-04 13:15:21,269INFO-本次Job耗时(S):0.0030
+ 2016-07-04 13:15:21,269INFO-本次Job结束,下次Job开始时间:2016/07/04 13:20:21
+ 2016-07-04 13:20:21,279INFO-本次Job开始执行
+ 2016-07-04 13:20:21,280INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:20:21,280INFO-正在监控:1号机台
+ 2016-07-04 13:20:21,282INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:20:21,282INFO-正在监控:2号机台
+ 2016-07-04 13:20:21,284INFO-本次Job耗时(S):0.0050
+ 2016-07-04 13:20:21,284INFO-本次Job结束,下次Job开始时间:2016/07/04 13:25:21
+ 2016-07-04 13:25:21,292INFO-本次Job开始执行
+ 2016-07-04 13:25:21,293INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:25:21,293INFO-正在监控:1号机台
+ 2016-07-04 13:25:21,294INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:25:21,295INFO-正在监控:2号机台
+ 2016-07-04 13:25:21,297INFO-本次Job耗时(S):0.0040
+ 2016-07-04 13:25:21,297INFO-本次Job结束,下次Job开始时间:2016/07/04 13:30:21
+ 2016-07-04 13:30:21,305INFO-本次Job开始执行
+ 2016-07-04 13:30:21,306INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:30:21,306INFO-正在监控:1号机台
+ 2016-07-04 13:30:21,308INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:30:21,309INFO-正在监控:2号机台
+ 2016-07-04 13:30:21,311INFO-本次Job耗时(S):0.0050
+ 2016-07-04 13:30:21,311INFO-本次Job结束,下次Job开始时间:2016/07/04 13:35:21
+ 2016-07-04 13:35:21,318INFO-本次Job开始执行
+ 2016-07-04 13:35:21,319INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:35:21,319INFO-正在监控:1号机台
+ 2016-07-04 13:35:21,320INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:35:21,321INFO-正在监控:2号机台
+ 2016-07-04 13:35:21,323INFO-本次Job耗时(S):0.0040
+ 2016-07-04 13:35:21,323INFO-本次Job结束,下次Job开始时间:2016/07/04 13:40:21
+ 2016-07-04 13:40:21,331INFO-本次Job开始执行
+ 2016-07-04 13:40:21,332INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:40:21,332INFO-正在监控:1号机台
+ 2016-07-04 13:40:21,333INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:40:21,334INFO-正在监控:2号机台
+ 2016-07-04 13:40:21,336INFO-本次Job耗时(S):0.0040
+ 2016-07-04 13:40:21,336INFO-本次Job结束,下次Job开始时间:2016/07/04 13:45:21
+ 2016-07-04 13:45:21,344INFO-本次Job开始执行
+ 2016-07-04 13:45:21,345INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:45:21,345INFO-正在监控:1号机台
+ 2016-07-04 13:45:21,347INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:45:21,348INFO-正在监控:2号机台
+ 2016-07-04 13:45:21,349INFO-本次Job耗时(S):0.0050
+ 2016-07-04 13:45:21,349INFO-本次Job结束,下次Job开始时间:2016/07/04 13:50:21
+ 2016-07-04 13:50:21,357INFO-本次Job开始执行
+ 2016-07-04 13:50:21,357INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:50:21,357INFO-正在监控:1号机台
+ 2016-07-04 13:50:21,358INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:50:21,359INFO-正在监控:2号机台
+ 2016-07-04 13:50:21,359INFO-本次Job耗时(S):0.0020
+ 2016-07-04 13:50:21,359INFO-本次Job结束,下次Job开始时间:2016/07/04 13:55:21
+ 2016-07-04 13:55:21,370INFO-本次Job开始执行
+ 2016-07-04 13:55:21,371INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 13:55:21,371INFO-正在监控:1号机台
+ 2016-07-04 13:55:21,373INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 13:55:21,373INFO-正在监控:2号机台
+ 2016-07-04 13:55:21,375INFO-本次Job耗时(S):0.0050
+ 2016-07-04 13:55:21,375INFO-本次Job结束,下次Job开始时间:2016/07/04 14:00:21
+ 2016-07-04 14:00:21,383INFO-本次Job开始执行
+ 2016-07-04 14:00:21,384INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 14:00:21,384INFO-正在监控:1号机台
+ 2016-07-04 14:00:21,386INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 14:00:21,387INFO-正在监控:2号机台
+ 2016-07-04 14:00:21,389INFO-本次Job耗时(S):0.0050
+ 2016-07-04 14:00:21,389INFO-本次Job结束,下次Job开始时间:2016/07/04 14:05:21
+ 2016-07-04 14:05:21,396INFO-本次Job开始执行
+ 2016-07-04 14:05:21,397INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 14:05:21,397INFO-正在监控:1号机台
+ 2016-07-04 14:05:21,399INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 14:05:21,399INFO-正在监控:2号机台
+ 2016-07-04 14:05:21,401INFO-本次Job耗时(S):0.0040
+ 2016-07-04 14:05:21,401INFO-本次Job结束,下次Job开始时间:2016/07/04 14:10:21
+ 2016-07-04 14:10:21,409INFO-本次Job开始执行
+ 2016-07-04 14:10:21,410INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 14:10:21,410INFO-正在监控:1号机台
+ 2016-07-04 14:10:21,411INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 14:10:21,413INFO-正在监控:2号机台
+ 2016-07-04 14:10:21,414INFO-本次Job耗时(S):0.0050
+ 2016-07-04 14:10:21,414INFO-本次Job结束,下次Job开始时间:2016/07/04 14:15:21
+ 2016-07-04 14:15:21,422INFO-本次Job开始执行
+ 2016-07-04 14:15:21,423INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 14:15:21,423INFO-正在监控:1号机台
+ 2016-07-04 14:15:21,425INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 14:15:21,425INFO-正在监控:2号机台
+ 2016-07-04 14:15:21,427INFO-本次Job耗时(S):0.0040
+ 2016-07-04 14:15:21,427INFO-本次Job结束,下次Job开始时间:2016/07/04 14:20:21
+ 2016-07-04 14:20:21,435INFO-本次Job开始执行
+ 2016-07-04 14:20:21,435INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 14:20:21,436INFO-正在监控:1号机台
+ 2016-07-04 14:20:21,436INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 14:20:21,437INFO-正在监控:2号机台
+ 2016-07-04 14:20:21,437INFO-本次Job耗时(S):0.0020
+ 2016-07-04 14:20:21,437INFO-本次Job结束,下次Job开始时间:2016/07/04 14:25:21
+ 2016-07-04 14:25:21,448INFO-本次Job开始执行
+ 2016-07-04 14:25:21,449INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 14:25:21,449INFO-正在监控:1号机台
+ 2016-07-04 14:25:21,450INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 14:25:21,451INFO-正在监控:2号机台
+ 2016-07-04 14:25:21,453INFO-本次Job耗时(S):0.0040
+ 2016-07-04 14:25:21,453INFO-本次Job结束,下次Job开始时间:2016/07/04 14:30:21
+ 2016-07-04 14:30:21,461INFO-本次Job开始执行
+ 2016-07-04 14:30:21,462INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 14:30:21,462INFO-正在监控:1号机台
+ 2016-07-04 14:30:21,464INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 14:30:21,465INFO-正在监控:2号机台
+ 2016-07-04 14:30:21,466INFO-本次Job耗时(S):0.0050
+ 2016-07-04 14:30:21,467INFO-本次Job结束,下次Job开始时间:2016/07/04 14:35:21
+ 2016-07-04 14:35:21,474INFO-本次Job开始执行
+ 2016-07-04 14:35:21,475INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 14:35:21,475INFO-正在监控:1号机台
+ 2016-07-04 14:35:21,476INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 14:35:21,477INFO-正在监控:2号机台
+ 2016-07-04 14:35:21,479INFO-本次Job耗时(S):0.0040
+ 2016-07-04 14:35:21,479INFO-本次Job结束,下次Job开始时间:2016/07/04 14:40:21
+ 2016-07-04 14:40:21,487INFO-本次Job开始执行
+ 2016-07-04 14:40:21,488INFO-本地目录位置:D:\Backup\SPC\20160704\1
+ 2016-07-04 14:40:21,488INFO-正在监控:1号机台
+ 2016-07-04 14:40:21,490INFO-本地目录位置:D:\Backup\SPC\20160704\2
+ 2016-07-04 14:40:21,490INFO-正在监控:2号机台
+ 2016-07-04 14:40:21,492INFO-本次Job耗时(S):0.0050
+ 2016-07-04 14:40:21,492INFO-本次Job结束,下次Job开始时间:2016/07/04 14:45:21
+ 
